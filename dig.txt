@@ -1,0 +1,590 @@
+
+; <<>> DiG 9.10.6 <<>> lifetouch.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5201
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;lifetouch.com.			IN	A
+
+;; ANSWER SECTION:
+lifetouch.com.		300	IN	A	104.197.127.247
+
+;; Query time: 206 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:34 EEST 2023
+;; MSG SIZE  rcvd: 58
+
+
+; <<>> DiG 9.10.6 <<>> jcpportraits.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19646
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;jcpportraits.com.		IN	A
+
+;; ANSWER SECTION:
+jcpportraits.com.	360	IN	A	104.197.127.247
+
+;; Query time: 63 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:34 EEST 2023
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.10.6 <<>> prestigeportraits.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51125
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;prestigeportraits.com.		IN	A
+
+;; ANSWER SECTION:
+prestigeportraits.com.	300	IN	A	104.197.127.247
+
+;; Query time: 170 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:34 EEST 2023
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.10.6 <<>> preschoolsmiles.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33939
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;preschoolsmiles.com.		IN	A
+
+;; ANSWER SECTION:
+preschoolsmiles.com.	43200	IN	A	209.213.221.97
+
+;; Query time: 71 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:34 EEST 2023
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.10.6 <<>> shutterfly.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 7891
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;shutterfly.com.			IN	A
+
+;; ANSWER SECTION:
+shutterfly.com.		1800	IN	A	13.248.216.157
+shutterfly.com.		1800	IN	A	76.223.88.49
+
+;; Query time: 52 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:34 EEST 2023
+;; MSG SIZE  rcvd: 75
+
+
+; <<>> DiG 9.10.6 <<>> www.borrowlenses.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30846
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;www.borrowlenses.com.		IN	A
+
+;; ANSWER SECTION:
+www.borrowlenses.com.	3600	IN	CNAME	accstorefront.crcndecc9r-shutterfl1-p1-public.model-t.cc.commerce.ondemand.com.
+accstorefront.crcndecc9r-shutterfl1-p1-public.model-t.cc.commerce.ondemand.com.	300 IN A 52.168.29.182
+
+;; Query time: 88 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:34 EEST 2023
+;; MSG SIZE  rcvd: 154
+
+
+; <<>> DiG 9.10.6 <<>> com.shutterfly.ShutterflyUploader
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 61907
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;com.shutterfly.ShutterflyUploader. IN	A
+
+;; AUTHORITY SECTION:
+.			141	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2023061500 1800 900 604800 86400
+
+;; Query time: 45 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:34 EEST 2023
+;; MSG SIZE  rcvd: 137
+
+
+; <<>> DiG 9.10.6 <<>> com.shutterfly
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 49521
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;com.shutterfly.			IN	A
+
+;; AUTHORITY SECTION:
+.			118	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2023061500 1800 900 604800 86400
+
+;; Query time: 47 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:34 EEST 2023
+;; MSG SIZE  rcvd: 118
+
+
+; <<>> DiG 9.10.6 <<>> com.photoupload
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 29898
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;com.photoupload.		IN	A
+
+;; AUTHORITY SECTION:
+.			37	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2023061500 1800 900 604800 86400
+
+;; Query time: 44 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:34 EEST 2023
+;; MSG SIZE  rcvd: 119
+
+
+; <<>> DiG 9.10.6 <<>> tinyprints.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21712
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;tinyprints.com.			IN	A
+
+;; ANSWER SECTION:
+tinyprints.com.		3600	IN	A	76.223.88.49
+tinyprints.com.		3600	IN	A	13.248.216.157
+
+;; Query time: 69 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:34 EEST 2023
+;; MSG SIZE  rcvd: 75
+
+
+; <<>> DiG 9.10.6 <<>> snapfish.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50330
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;snapfish.com.			IN	A
+
+;; ANSWER SECTION:
+snapfish.com.		300	IN	A	104.17.9.33
+snapfish.com.		300	IN	A	104.17.10.33
+
+;; Query time: 55 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:35 EEST 2023
+;; MSG SIZE  rcvd: 73
+
+
+; <<>> DiG 9.10.6 <<>> snapfish.de
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31709
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;snapfish.de.			IN	A
+
+;; ANSWER SECTION:
+snapfish.de.		300	IN	A	104.18.14.30
+snapfish.de.		300	IN	A	104.18.15.30
+
+;; Query time: 54 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:35 EEST 2023
+;; MSG SIZE  rcvd: 72
+
+
+; <<>> DiG 9.10.6 <<>> snapfish.fr
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43620
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;snapfish.fr.			IN	A
+
+;; ANSWER SECTION:
+snapfish.fr.		300	IN	A	104.18.24.151
+snapfish.fr.		300	IN	A	104.18.25.151
+
+;; Query time: 55 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:35 EEST 2023
+;; MSG SIZE  rcvd: 72
+
+
+; <<>> DiG 9.10.6 <<>> snapfish.ie
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38031
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;snapfish.ie.			IN	A
+
+;; ANSWER SECTION:
+snapfish.ie.		300	IN	A	104.18.1.143
+snapfish.ie.		300	IN	A	104.18.0.143
+
+;; Query time: 65 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:35 EEST 2023
+;; MSG SIZE  rcvd: 72
+
+
+; <<>> DiG 9.10.6 <<>> snapfish.it
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24658
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;snapfish.it.			IN	A
+
+;; ANSWER SECTION:
+snapfish.it.		300	IN	A	104.18.5.188
+snapfish.it.		300	IN	A	104.18.4.188
+
+;; Query time: 158 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:35 EEST 2023
+;; MSG SIZE  rcvd: 72
+
+
+; <<>> DiG 9.10.6 <<>> snapfish.co.uk
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 61901
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;snapfish.co.uk.			IN	A
+
+;; ANSWER SECTION:
+snapfish.co.uk.		300	IN	A	104.16.246.185
+snapfish.co.uk.		300	IN	A	104.16.244.185
+snapfish.co.uk.		300	IN	A	104.16.248.185
+snapfish.co.uk.		300	IN	A	104.16.245.185
+snapfish.co.uk.		300	IN	A	104.16.247.185
+
+;; Query time: 46 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:35 EEST 2023
+;; MSG SIZE  rcvd: 123
+
+
+; <<>> DiG 9.10.6 <<>> snapfish.com.au
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49078
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;snapfish.com.au.		IN	A
+
+;; ANSWER SECTION:
+snapfish.com.au.	300	IN	A	104.18.243.243
+snapfish.com.au.	300	IN	A	104.18.245.243
+snapfish.com.au.	300	IN	A	104.18.242.243
+snapfish.com.au.	300	IN	A	104.18.246.243
+snapfish.com.au.	300	IN	A	104.18.244.243
+
+;; Query time: 46 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:35 EEST 2023
+;; MSG SIZE  rcvd: 124
+
+
+; <<>> DiG 9.10.6 <<>> snapfish.co.nz
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 62341
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;snapfish.co.nz.			IN	A
+
+;; ANSWER SECTION:
+snapfish.co.nz.		300	IN	A	104.17.159.243
+snapfish.co.nz.		300	IN	A	104.17.158.243
+snapfish.co.nz.		300	IN	A	104.17.157.243
+snapfish.co.nz.		300	IN	A	104.17.156.243
+snapfish.co.nz.		300	IN	A	104.17.155.243
+
+;; Query time: 328 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:35 EEST 2023
+;; MSG SIZE  rcvd: 123
+
+
+; <<>> DiG 9.10.6 <<>> photo.walgreens.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5950
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;photo.walgreens.com.		IN	A
+
+;; ANSWER SECTION:
+photo.walgreens.com.	60	IN	A	23.1.106.101
+photo.walgreens.com.	60	IN	A	184.31.10.101
+photo.walgreens.com.	60	IN	A	23.1.99.98
+photo.walgreens.com.	60	IN	A	184.31.3.98
+
+;; Query time: 85 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:35 EEST 2023
+;; MSG SIZE  rcvd: 112
+
+
+; <<>> DiG 9.10.6 <<>> http://www.cvs.com/photo/
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 5413
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;http://www.cvs.com/photo/.	IN	A
+
+;; AUTHORITY SECTION:
+.			35	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2023061500 1800 900 604800 86400
+
+;; Query time: 45 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:35 EEST 2023
+;; MSG SIZE  rcvd: 129
+
+
+; <<>> DiG 9.10.6 <<>> shutterfly.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 17223
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;shutterfly.com.			IN	A
+
+;; ANSWER SECTION:
+shutterfly.com.		295	IN	A	76.223.88.49
+shutterfly.com.		295	IN	A	13.248.216.157
+
+;; Query time: 45 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:36 EEST 2023
+;; MSG SIZE  rcvd: 75
+
+
+; <<>> DiG 9.10.6 <<>> www.spoonflower.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9268
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;www.spoonflower.com.		IN	A
+
+;; ANSWER SECTION:
+www.spoonflower.com.	60	IN	A	13.32.240.70
+
+;; Query time: 57 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:36 EEST 2023
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.10.6 <<>> admin.spoonflower.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13588
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;admin.spoonflower.com.		IN	A
+
+;; ANSWER SECTION:
+admin.spoonflower.com.	60	IN	A	34.193.160.87
+admin.spoonflower.com.	60	IN	A	3.81.175.61
+admin.spoonflower.com.	60	IN	A	52.22.18.171
+
+;; Query time: 48 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:36 EEST 2023
+;; MSG SIZE  rcvd: 98
+
+
+; <<>> DiG 9.10.6 <<>> staging.spoonflower.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38941
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;staging.spoonflower.com.	IN	A
+
+;; ANSWER SECTION:
+staging.spoonflower.com. 60	IN	A	52.222.139.11
+staging.spoonflower.com. 60	IN	A	52.222.139.10
+staging.spoonflower.com. 60	IN	A	52.222.139.27
+staging.spoonflower.com. 60	IN	A	52.222.139.69
+
+;; Query time: 72 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:36 EEST 2023
+;; MSG SIZE  rcvd: 116
+
+
+; <<>> DiG 9.10.6 <<>> photoccino.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8728
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;photoccino.com.			IN	A
+
+;; ANSWER SECTION:
+photoccino.com.		300	IN	A	174.129.207.171
+
+;; Query time: 53 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:36 EEST 2023
+;; MSG SIZE  rcvd: 59
+
+
+; <<>> DiG 9.10.6 <<>> lifetouch.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37919
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;lifetouch.com.			IN	A
+
+;; ANSWER SECTION:
+lifetouch.com.		300	IN	A	104.197.127.247
+
+;; Query time: 183 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:36 EEST 2023
+;; MSG SIZE  rcvd: 58
+
+
+; <<>> DiG 9.10.6 <<>> blog.spoonflower.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44518
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;blog.spoonflower.com.		IN	A
+
+;; ANSWER SECTION:
+blog.spoonflower.com.	60	IN	A	143.110.235.71
+
+;; Query time: 62 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:36 EEST 2023
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.10.6 <<>> shutterfly.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1513
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;shutterfly.com.			IN	A
+
+;; ANSWER SECTION:
+shutterfly.com.		1800	IN	A	13.248.216.157
+shutterfly.com.		1800	IN	A	76.223.88.49
+
+;; Query time: 86 msec
+;; SERVER: 198.153.192.50#53(198.153.192.50)
+;; WHEN: Thu Jun 15 19:52:36 EEST 2023
+;; MSG SIZE  rcvd: 75
+
